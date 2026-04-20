@@ -15,7 +15,7 @@ public class VentanaPrincipal extends JFrame {
     private JRadioButton rbIda;
 
     public VentanaPrincipal() {
-        super("ColectiGo - Sistema de Rutas Coyhaique");
+        super("ColectiGo - Lineas de colectivos en Coyhaique");
         mapaMgr = new MapaManager();
         
         initUI();
@@ -48,7 +48,7 @@ public class VentanaPrincipal extends JFrame {
         lblTitulo.setFont(new Font("Arial", Font.BOLD, 28));
         lblTitulo.setAlignmentX(Component.LEFT_ALIGNMENT);
     
-        JLabel lblSub = new JLabel("Región de Aysén");
+        JLabel lblSub = new JLabel("Coyhaique, Región de Aysén");
         lblSub.setForeground(Color.GRAY);
         lblSub.setAlignmentX(Component.LEFT_ALIGNMENT);
 
