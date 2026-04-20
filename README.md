@@ -16,3 +16,6 @@ Este proyecto permitirá digitalizar, visualizar los recorridos de colectivos y 
 2. Ejecuta el script `colectigo.sql` en tu servidor MySQL.
 4. Configura `ConexionBD.java` con los datos que correspondan: puerto, user, password (si es que tiene).
 5. Ejecuta: `mvn clean compile exec:java -Dexec.mainClass="com.colectigo.Main"`
+![Pantallazo de ColectiGo]("ColectiGo imgs/Mapa.png)
+![Pantallazo de ColectiGo]("ColectiGo imgs/Linea5_ida.png)
+![Pantallazo de ColectiGo]("ColectiGo imgs/Linea5_vuelta.png)
